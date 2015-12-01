@@ -1,0 +1,268 @@
+/* line 4, ../scss/master.scss */
+#overdiv {
+  width: 100%;
+  overflow: hidden;
+}
+
+/* line 8, ../scss/master.scss */
+#leftdiv {
+  width: 600px;
+  float: left;
+}
+
+/* line 12, ../scss/master.scss */
+#rightdiv {
+  margin-left: 620px;
+}
+
+/* line 15, ../scss/master.scss */
+.happy, .sad {
+  width: 450px;
+  height: 450px;
+  border-radius: 225px;
+  -webkit-filter: invert(100%);
+  filter: invert(100%);
+  text-align: center;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* line 25, ../scss/master.scss */
+.happy {
+  background: url(smile.png) no-repeat;
+}
+
+/* line 28, ../scss/master.scss */
+.sad {
+  background: url(frown.png) no-repeat;
+}
+
+/* line 32, ../scss/master.scss */
+.faces {
+  margin-left: 40px;
+}
+
+/* line 36, ../scss/master.scss */
+.plate {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 400px;
+  height: 400px;
+  margin-top: -275px;
+  /* Half the height */
+  margin-left: -195px;
+  /* Half the width */
+}
+
+/* line 46, ../scss/master.scss */
+.round-icon {
+  display: table;
+  height: 80px;
+  margin: 15px auto 1rem;
+  width: 160px;
+  font-size: 35px;
+  color: #F5A623;
+  font-weight: bold;
+  text-shadow: 1px 1px #AAAAAA;
+}
+/* line 55, ../scss/master.scss */
+.round-icon .food-item {
+  display: table-cell;
+  text-align: center;
+  vertical-align: left;
+}
+
+@font-face {
+  font-family: bannerFont;
+  src: url(../assets/MANIFESTO.ttf);
+}
+/* line 67, ../scss/master.scss */
+html {
+  overflow: hidden;
+}
+
+/* line 71, ../scss/master.scss */
+body {
+  background: -webkit-linear-gradient(red, blue);
+  /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(red, blue);
+  /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(turquoise, midnightblue);
+  /* For Firefox 3.6 to 15 */
+  background: linear-gradient(turquoise, fuchsia);
+  /* Standard syntax */
+  font-family: 'Droid Serif', Verdana, Geneva, serif;
+  background-image: url(wood.jpg);
+  color: snow;
+}
+
+/* line 81, ../scss/master.scss */
+h1, h3 {
+  color: snow;
+  font-family: 'Droid Serif', Verdana, Geneva, serif;
+  text-align: center;
+}
+
+/* line 86, ../scss/master.scss */
+#header {
+  background-image: url(bg.jpg);
+  background-size: 100%;
+  border: 5px solid black;
+  height: 150px;
+}
+
+/* line 92, ../scss/master.scss */
+#duckdiv {
+  background-image: url(duck.png);
+  height: 150px;
+  width: 150px;
+  background-size: 150px 150px;
+}
+
+/* line 99, ../scss/master.scss */
+.leftpb {
+  height: 45px;
+  background-size: 225px 75px;
+  background-repeat: no-repeat;
+  background-position: right top;
+  border-right-style: solid;
+  border-color: dimgray;
+}
+
+/* line 107, ../scss/master.scss */
+.centerpb {
+  height: 45px;
+  background-size: 225px 75px;
+  background-repeat: no-repeat;
+  border-right-style: solid;
+  border-left-style: solid;
+  border-color: dimgray;
+}
+
+/* line 116, ../scss/master.scss */
+.rightpb {
+  height: 45px;
+  background-size: 225px 75px;
+  background-repeat: no-repeat;
+  border-left-style: solid;
+  border-color: dimgray;
+}
+
+/* line 124, ../scss/master.scss */
+.rus {
+  background-image: url(RIGHT.png);
+}
+
+/* line 127, ../scss/master.scss */
+.rs {
+  background-image: url(RIGHTselected.png);
+}
+
+/* line 130, ../scss/master.scss */
+.rg {
+  background-image: url(RIGHTgray.png);
+}
+
+/* line 133, ../scss/master.scss */
+.lus {
+  background-image: url(LEFT.png);
+}
+
+/* line 136, ../scss/master.scss */
+.ls {
+  background-image: url(LEFTselected.png);
+}
+
+/* line 139, ../scss/master.scss */
+.mus {
+  background-image: url(MIDDLE.png);
+}
+
+/* line 142, ../scss/master.scss */
+.ms {
+  background-image: url(MIDDLEselected.png);
+}
+
+/* line 145, ../scss/master.scss */
+.mg {
+  background-image: url(MIDDLEgray.png);
+}
+
+/* line 148, ../scss/master.scss */
+#footer {
+  position: fixed;
+  bottom: 25px;
+  line-height: 50px;
+  text-align: center;
+  width: 100%;
+}
+
+/* line 155, ../scss/master.scss */
+#buttondiv {
+  position: fixed;
+  bottom: 100px;
+  line-height: 50px;
+  text-align: center;
+  width: 100%;
+}
+
+/* line 162, ../scss/master.scss */
+.button {
+  background-color: #7AA8DD;
+}
+
+/* line 165, ../scss/master.scss */
+.button:hover {
+  background-color: #488DDE;
+}
+
+/* line 168, ../scss/master.scss */
+.plates {
+  width: 400px;
+  height: 400px;
+  background: url(plate.png);
+  background-size: 100%;
+  border-radius: 200px;
+  text-align: center;
+}
+
+/* line 176, ../scss/master.scss */
+.plategroup {
+  margin-left: 5px;
+}
+
+/* line 180, ../scss/master.scss */
+.rating {
+  unicode-bidi: bidi-override;
+  direction: rtl;
+  color: black;
+  font-size: 96px;
+}
+
+/* line 186, ../scss/master.scss */
+.rating > span {
+  display: inline-block;
+  position: relative;
+  width: 1.1em;
+}
+
+/* line 191, ../scss/master.scss */
+.rating > span:hover:before,
+.rating > span:hover ~ span:before {
+  content: "\2605";
+  position: absolute;
+}
+
+/* line 196, ../scss/master.scss */
+.stars {
+  color: gold;
+}
+
+/* line 199, ../scss/master.scss */
+.name {
+  color: black;
+  font-size: 50px;
+  margin-top: 30px;
+}

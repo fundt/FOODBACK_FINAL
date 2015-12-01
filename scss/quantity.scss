@@ -11,16 +11,61 @@ html {
         overflow: hidden;
 }
 
-body{
-  background: -webkit-linear-gradient(red, blue); /* For Safari 5.1 to 6.0 */
-  background: -o-linear-gradient(red, blue); /* For Opera 11.1 to 12.0 */
-  background: -moz-linear-gradient(turquoise, midnightblue); /* For Firefox 3.6 to 15 */
-  background: linear-gradient(turquoise, fuchsia); /* Standard syntax */
+body.wood{
   font-family: 'Droid Serif', Verdana, Geneva, serif;
-  background-image: url(wood.jpg);
+  background-image: url(../img/wood.jpg);
   color:snow;
-}
+  .happy{
+    background-image: url(../img/smile.png);
+    background-repeat: no-repeat;
+  }
+  .sad{
+    background-image: url(../img/frown.png);
+    background-repeat: no-repeat;
+  }
+  .button{
+    background-color: #7AA8DD;
+  }
+  .button:hover{
+    background-color: #488DDE;
+  }
+  .plates{
+    width: 400px;
+    height: 400px;
+    background: url(plate.png);
+    background-size: 100%;
+    border-radius: 200px;
+    text-align: center;
+  }
+  .plategroup{
+    margin-left: 5px;
+  }
 
+  .rating {
+    unicode-bidi: bidi-override;
+    direction: rtl;
+    color: black;
+    font-size: 96px;
+  }
+  .rating > span {
+    display: inline-block;
+    position: relative;
+    width: 1.1em;
+  }
+  .rating > span:hover:before,
+  .rating > span:hover ~ span:before {
+     content: "\2605";
+     position: absolute;
+  }
+  .stars{
+    color:gold;
+  }
+  .name{
+    color: black;
+    font-size: 50px;
+    margin-top: 30px;
+  }
+}
 h1,h3{
   color:snow;
   font-family: 'Droid Serif', Verdana, Geneva, serif;
@@ -90,45 +135,4 @@ h1,h3{
     text-align: center;
     width: 100%;
 }
-.button{
-  background-color: #7AA8DD;
-}
-.button:hover{
-  background-color: #488DDE;
-}
-.plates{
-  width: 400px;
-  height: 400px;
-  background: url(plate.png);
-  background-size: 100%;
-  border-radius: 200px;
-  text-align: center;
-}
-.plategroup{
-  margin-left: 5px;
-}
 
-.rating {
-  unicode-bidi: bidi-override;
-  direction: rtl;
-  color: black;
-  font-size: 96px;
-}
-.rating > span {
-  display: inline-block;
-  position: relative;
-  width: 1.1em;
-}
-.rating > span:hover:before,
-.rating > span:hover ~ span:before {
-   content: "\2605";
-   position: absolute;
-}
-.stars{
-  color:gold;
-}
-.name{
-  color: black;
-  font-size: 50px;
-  margin-top: 30px;
-}

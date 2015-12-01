@@ -1,0 +1,139 @@
+/* line 5, ../scss/vote.scss */
+html {
+  overflow: hidden;
+}
+
+/* line 9, ../scss/vote.scss */
+body {
+  background: -webkit-linear-gradient(red, blue);
+  /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(red, blue);
+  /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(turquoise, midnightblue);
+  /* For Firefox 3.6 to 15 */
+  background: linear-gradient(turquoise, fuchsia);
+  /* Standard syntax */
+  font-family: 'Droid Serif', Verdana, Geneva, serif;
+  background-image: url(wood.jpg);
+  color: snow;
+}
+
+/* line 19, ../scss/vote.scss */
+h1, h3 {
+  color: snow;
+  font-family: 'Droid Serif', Verdana, Geneva, serif;
+  text-align: center;
+}
+
+/* line 24, ../scss/vote.scss */
+#header {
+  background-image: url(bg.jpg);
+  background-size: 100%;
+  border: 5px solid black;
+  height: 150px;
+}
+
+/* line 30, ../scss/vote.scss */
+#duckdiv {
+  background-image: url(duck.png);
+  height: 150px;
+  width: 150px;
+  background-size: 150px 150px;
+}
+
+/* line 37, ../scss/vote.scss */
+.leftpb {
+  height: 45px;
+  background-size: 225px 75px;
+  background-repeat: no-repeat;
+  background-position: right top;
+  border-right-style: solid;
+  border-color: dimgray;
+}
+
+/* line 45, ../scss/vote.scss */
+.centerpb {
+  height: 45px;
+  background-size: 225px 75px;
+  background-repeat: no-repeat;
+  border-right-style: solid;
+  border-left-style: solid;
+  border-color: dimgray;
+}
+
+/* line 54, ../scss/vote.scss */
+.rightpb {
+  height: 45px;
+  background-size: 225px 75px;
+  background-repeat: no-repeat;
+  border-left-style: solid;
+  border-color: dimgray;
+}
+
+/* line 62, ../scss/vote.scss */
+.rus {
+  background-image: url(RIGHT.png);
+}
+
+/* line 65, ../scss/vote.scss */
+.rs {
+  background-image: url(RIGHTselected.png);
+}
+
+/* line 68, ../scss/vote.scss */
+.rg {
+  background-image: url(RIGHTgray.png);
+}
+
+/* line 71, ../scss/vote.scss */
+.lus {
+  background-image: url(LEFT.png);
+}
+
+/* line 74, ../scss/vote.scss */
+.ls {
+  background-image: url(LEFTselected.png);
+}
+
+/* line 77, ../scss/vote.scss */
+.mus {
+  background-image: url(MIDDLE.png);
+}
+
+/* line 80, ../scss/vote.scss */
+.ms {
+  background-image: url(MIDDLEselected.png);
+}
+
+/* line 83, ../scss/vote.scss */
+.mg {
+  background-image: url(MIDDLEgray.png);
+}
+
+/* line 86, ../scss/vote.scss */
+#footer {
+  position: fixed;
+  bottom: 25px;
+  line-height: 50px;
+  text-align: center;
+  width: 100%;
+}
+
+/* line 93, ../scss/vote.scss */
+#buttondiv {
+  position: fixed;
+  bottom: 100px;
+  line-height: 50px;
+  text-align: center;
+  width: 100%;
+}
+
+/* line 100, ../scss/vote.scss */
+.button {
+  background-color: #7AA8DD;
+}
+
+/* line 103, ../scss/vote.scss */
+.button:hover {
+  background-color: #488DDE;
+}

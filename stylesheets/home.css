@@ -1,0 +1,134 @@
+/* line 5, ../scss/home.scss */
+.happy, .sad {
+  width: 450px;
+  height: 450px;
+  border-radius: 225px;
+  -webkit-filter: invert(100%);
+  filter: invert(100%);
+  text-align: center;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* line 16, ../scss/home.scss */
+.faces {
+  margin-left: 40px;
+}
+
+/* line 21, ../scss/home.scss */
+html {
+  overflow: hidden;
+}
+
+/* line 25, ../scss/home.scss */
+body.wood {
+  font-family: 'Droid Serif', Verdana, Geneva, serif;
+  background-image: url(../img/wood.jpg);
+  color: snow;
+}
+/* line 29, ../scss/home.scss */
+body.wood .happy {
+  background-image: url(../img/smile.png);
+  background-repeat: no-repeat;
+}
+/* line 33, ../scss/home.scss */
+body.wood .sad {
+  background-image: url(../img/frown.png);
+  background-repeat: no-repeat;
+}
+
+/* line 39, ../scss/home.scss */
+/* line 40, ../scss/home.scss */
+h1.header, h3.subheader {
+  color: snow;
+  font-family: 'Droid Serif', Verdana, Geneva, serif;
+  text-align: center;
+}
+
+/* line 46, ../scss/home.scss */
+.leftpb {
+  height: 45px;
+  background-size: 225px 75px;
+  background-repeat: no-repeat;
+  background-position: right top;
+  border-right-style: solid;
+  border-color: dimgray;
+}
+
+/* line 54, ../scss/home.scss */
+.centerpb {
+  height: 45px;
+  background-size: 225px 75px;
+  background-repeat: no-repeat;
+  border-right-style: solid;
+  border-left-style: solid;
+  border-color: dimgray;
+}
+
+/* line 63, ../scss/home.scss */
+.rightpb {
+  height: 45px;
+  background-size: 225px 75px;
+  background-repeat: no-repeat;
+  border-left-style: solid;
+  border-color: dimgray;
+}
+
+/* line 71, ../scss/home.scss */
+.rus {
+  background-image: url(../img/RIGHT.png);
+}
+
+/* line 74, ../scss/home.scss */
+.rs {
+  background-image: url(../img/RIGHTselected.png);
+}
+
+/* line 77, ../scss/home.scss */
+.rg {
+  background-image: url(../img/vRIGHTgray.png);
+}
+
+/* line 80, ../scss/home.scss */
+.lus {
+  background-image: url(../img/LEFT.png);
+}
+
+/* line 83, ../scss/home.scss */
+.ls {
+  background-image: url(../img/LEFTselected.png);
+}
+
+/* line 86, ../scss/home.scss */
+.mus {
+  background-image: url(../img/MIDDLE.png);
+}
+
+/* line 89, ../scss/home.scss */
+.ms {
+  background-image: url(../img/MIDDLEselected.png);
+}
+
+/* line 92, ../scss/home.scss */
+.mg {
+  background-image: url(../img/MIDDLEgray.png);
+}
+
+/* line 95, ../scss/home.scss */
+#footer {
+  position: fixed;
+  bottom: 25px;
+  line-height: 50px;
+  text-align: center;
+  width: 100%;
+}
+
+/* line 102, ../scss/home.scss */
+#buttondiv {
+  position: fixed;
+  bottom: 100px;
+  line-height: 50px;
+  text-align: center;
+  width: 100%;
+}

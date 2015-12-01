@@ -1,0 +1,169 @@
+@font-face {
+  font-family: bannerFont;
+  src: url(../assets/MANIFESTO.ttf);
+}
+/* line 10, ../scss/quantity.scss */
+html {
+  overflow: hidden;
+}
+
+/* line 14, ../scss/quantity.scss */
+body.wood {
+  font-family: 'Droid Serif', Verdana, Geneva, serif;
+  background-image: url(../img/wood.jpg);
+  color: snow;
+}
+/* line 18, ../scss/quantity.scss */
+body.wood .happy {
+  background-image: url(../img/smile.png);
+  background-repeat: no-repeat;
+}
+/* line 22, ../scss/quantity.scss */
+body.wood .sad {
+  background-image: url(../img/frown.png);
+  background-repeat: no-repeat;
+}
+/* line 26, ../scss/quantity.scss */
+body.wood .button {
+  background-color: #7AA8DD;
+}
+/* line 29, ../scss/quantity.scss */
+body.wood .button:hover {
+  background-color: #488DDE;
+}
+/* line 32, ../scss/quantity.scss */
+body.wood .plates {
+  width: 400px;
+  height: 400px;
+  background: url(plate.png);
+  background-size: 100%;
+  border-radius: 200px;
+  text-align: center;
+}
+/* line 40, ../scss/quantity.scss */
+body.wood .plategroup {
+  margin-left: 5px;
+}
+/* line 44, ../scss/quantity.scss */
+body.wood .rating {
+  unicode-bidi: bidi-override;
+  direction: rtl;
+  color: black;
+  font-size: 96px;
+}
+/* line 50, ../scss/quantity.scss */
+body.wood .rating > span {
+  display: inline-block;
+  position: relative;
+  width: 1.1em;
+}
+/* line 55, ../scss/quantity.scss */
+body.wood .rating > span:hover:before,
+body.wood .rating > span:hover ~ span:before {
+  content: "\2605";
+  position: absolute;
+}
+/* line 60, ../scss/quantity.scss */
+body.wood .stars {
+  color: gold;
+}
+/* line 63, ../scss/quantity.scss */
+body.wood .name {
+  color: black;
+  font-size: 50px;
+  margin-top: 30px;
+}
+
+/* line 69, ../scss/quantity.scss */
+h1, h3 {
+  color: snow;
+  font-family: 'Droid Serif', Verdana, Geneva, serif;
+  text-align: center;
+}
+
+/* line 75, ../scss/quantity.scss */
+.leftpb {
+  height: 45px;
+  background-size: 225px 75px;
+  background-repeat: no-repeat;
+  background-position: right top;
+  border-right-style: solid;
+  border-color: dimgray;
+}
+
+/* line 83, ../scss/quantity.scss */
+.centerpb {
+  height: 45px;
+  background-size: 225px 75px;
+  background-repeat: no-repeat;
+  border-right-style: solid;
+  border-left-style: solid;
+  border-color: dimgray;
+}
+
+/* line 92, ../scss/quantity.scss */
+.rightpb {
+  height: 45px;
+  background-size: 225px 75px;
+  background-repeat: no-repeat;
+  border-left-style: solid;
+  border-color: dimgray;
+}
+
+/* line 100, ../scss/quantity.scss */
+.rus {
+  background-image: url(RIGHT.png);
+}
+
+/* line 103, ../scss/quantity.scss */
+.rs {
+  background-image: url(RIGHTselected.png);
+}
+
+/* line 106, ../scss/quantity.scss */
+.rg {
+  background-image: url(RIGHTgray.png);
+}
+
+/* line 109, ../scss/quantity.scss */
+.lus {
+  background-image: url(LEFT.png);
+}
+
+/* line 112, ../scss/quantity.scss */
+.ls {
+  background-image: url(LEFTselected.png);
+}
+
+/* line 115, ../scss/quantity.scss */
+.mus {
+  background-image: url(MIDDLE.png);
+}
+
+/* line 118, ../scss/quantity.scss */
+.ms {
+  background-image: url(MIDDLEselected.png);
+}
+
+/* line 121, ../scss/quantity.scss */
+.mg {
+  background-image: url(MIDDLEgray.png);
+}
+
+/* line 124, ../scss/quantity.scss */
+#footer {
+  position: fixed;
+  bottom: 25px;
+  line-height: 50px;
+  text-align: center;
+  width: 100%;
+}
+
+/* line 131, ../scss/quantity.scss */
+#buttondiv {
+  position: fixed;
+  bottom: 100px;
+  line-height: 50px;
+  text-align: center;
+  width: 100%;
+}

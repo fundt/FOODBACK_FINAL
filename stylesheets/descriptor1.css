@@ -1,0 +1,123 @@
+/* line 5, ../scss/descriptor1.scss */
+html {
+  overflow: hidden;
+}
+
+/* line 9, ../scss/descriptor1.scss */
+body {
+  background: -webkit-linear-gradient(red, blue);
+  /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(red, blue);
+  /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(turquoise, midnightblue);
+  /* For Firefox 3.6 to 15 */
+  background: linear-gradient(turquoise, fuchsia);
+  /* Standard syntax */
+  font-family: 'Droid Serif', Verdana, Geneva, serif;
+  background-image: url(wood.jpg);
+  color: snow;
+}
+
+/* line 19, ../scss/descriptor1.scss */
+h1, h3 {
+  color: snow;
+  font-family: 'Droid Serif', Verdana, Geneva, serif;
+  text-align: center;
+}
+
+/* line 25, ../scss/descriptor1.scss */
+.leftpb {
+  height: 45px;
+  background-size: 225px 75px;
+  background-repeat: no-repeat;
+  background-position: right top;
+  border-right-style: solid;
+  border-color: dimgray;
+}
+
+/* line 33, ../scss/descriptor1.scss */
+.centerpb {
+  height: 45px;
+  background-size: 225px 75px;
+  background-repeat: no-repeat;
+  border-right-style: solid;
+  border-left-style: solid;
+  border-color: dimgray;
+}
+
+/* line 42, ../scss/descriptor1.scss */
+.rightpb {
+  height: 45px;
+  background-size: 225px 75px;
+  background-repeat: no-repeat;
+  border-left-style: solid;
+  border-color: dimgray;
+}
+
+/* line 50, ../scss/descriptor1.scss */
+.rus {
+  background-image: url(RIGHT.png);
+}
+
+/* line 53, ../scss/descriptor1.scss */
+.rs {
+  background-image: url(RIGHTselected.png);
+}
+
+/* line 56, ../scss/descriptor1.scss */
+.rg {
+  background-image: url(RIGHTgray.png);
+}
+
+/* line 59, ../scss/descriptor1.scss */
+.lus {
+  background-image: url(LEFT.png);
+}
+
+/* line 62, ../scss/descriptor1.scss */
+.ls {
+  background-image: url(LEFTselected.png);
+}
+
+/* line 65, ../scss/descriptor1.scss */
+.mus {
+  background-image: url(MIDDLE.png);
+}
+
+/* line 68, ../scss/descriptor1.scss */
+.ms {
+  background-image: url(MIDDLEselected.png);
+}
+
+/* line 71, ../scss/descriptor1.scss */
+.mg {
+  background-image: url(MIDDLEgray.png);
+}
+
+/* line 74, ../scss/descriptor1.scss */
+#footer {
+  position: fixed;
+  bottom: 25px;
+  line-height: 50px;
+  text-align: center;
+  width: 100%;
+}
+
+/* line 81, ../scss/descriptor1.scss */
+#buttondiv {
+  position: fixed;
+  bottom: 100px;
+  line-height: 50px;
+  text-align: center;
+  width: 100%;
+}
+
+/* line 88, ../scss/descriptor1.scss */
+.button {
+  background-color: #7AA8DD;
+}
+
+/* line 91, ../scss/descriptor1.scss */
+.button:hover {
+  background-color: #488DDE;
+}
