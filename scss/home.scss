@@ -36,8 +36,9 @@ body.wood{
   }
 }
 
-h1,h3{
-  color:snow;
+/* line 39, ../scss/home.scss */
+h1.header, h3.subheader {
+  color: snow;
   font-family: 'Droid Serif', Verdana, Geneva, serif;
   text-align: center;
 }
