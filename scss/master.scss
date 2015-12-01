@@ -1,0 +1,203 @@
+// Place all the styles related to the feedback controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+#overdiv{
+	width: 100%;
+	overflow: hidden;
+}
+#leftdiv{
+	width: 600px;
+	float: left;
+}
+#rightdiv{
+	margin-left: 620px;
+}
+.happy, .sad{
+	width: 450px;
+	height: 450px;
+	border-radius: 225px;
+	-webkit-filter: invert(100%); filter: invert(100%);
+	text-align: center;
+	display:block;
+	margin-left:auto;
+	margin-right:auto;
+}
+.happy{
+	background: url(smile.png) no-repeat;
+}
+.sad{
+	background: url(frown.png) no-repeat;
+}
+
+.faces{
+	margin-left:40px;
+}
+
+.plate {
+   position: absolute;
+   top: 50%;
+   left: 50%;
+   width: 400px;
+   height: 400px;
+   margin-top: -275px; /* Half the height */
+   margin-left: -195px; /* Half the width */
+}
+
+.round-icon {
+  display: table;
+  height: 80px;
+  margin: 15px auto 1rem;
+  width: 160px;
+  font-size: 35px;
+  color: #F5A623;
+  font-weight: bold;
+  text-shadow: 1px 1px #AAAAAA;
+  .food-item{
+  	display: table-cell;
+    text-align: center;
+    vertical-align: left;
+  }
+}
+
+@font-face {
+    font-family: bannerFont;
+    src: url(../assets/MANIFESTO.ttf);
+}
+
+html {
+        overflow: hidden;
+}
+
+body{
+  background: -webkit-linear-gradient(red, blue); /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(red, blue); /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(turquoise, midnightblue); /* For Firefox 3.6 to 15 */
+  background: linear-gradient(turquoise, fuchsia); /* Standard syntax */
+  font-family: 'Droid Serif', Verdana, Geneva, serif;
+  background-image: url(wood.jpg);
+  color:snow;
+}
+
+h1,h3{
+  color:snow;
+  font-family: 'Droid Serif', Verdana, Geneva, serif;
+  text-align: center;
+}
+#header{
+  background-image: url(bg.jpg);
+  background-size: 100%;
+  border: 5px solid black;
+  height: 150px;
+}
+#duckdiv{
+  background-image: url(duck.png);
+  height: 150px;
+  width: 150px;
+  background-size: 150px 150px;
+}
+
+.leftpb{
+  height: 45px;
+  background-size: 225px 75px;
+  background-repeat: no-repeat;
+  background-position: right top;
+  border-right-style: solid;
+  border-color: dimgray;
+}
+.centerpb{
+  height: 45px;
+  background-size: 225px 75px;
+  background-repeat: no-repeat;
+  border-right-style: solid;
+  border-left-style: solid;
+  border-color: dimgray;
+}
+
+.rightpb{
+  height: 45px;
+  background-size: 225px 75px;
+  background-repeat: no-repeat;
+  border-left-style: solid;
+  border-color: dimgray;
+}
+
+.rus{
+  background-image: url(RIGHT.png);
+}
+.rs{
+  background-image: url(RIGHTselected.png);
+}
+.rg{
+  background-image: url(RIGHTgray.png)
+}
+.lus{
+  background-image: url(LEFT.png);
+}
+.ls{
+  background-image: url(LEFTselected.png);
+}
+.mus{
+  background-image: url(MIDDLE.png);
+}
+.ms{
+  background-image: url(MIDDLEselected.png);
+}
+.mg{
+  background-image: url(MIDDLEgray.png)
+}
+#footer{
+    position: fixed;
+    bottom: 25px;
+    line-height: 50px;
+    text-align: center;
+    width: 100%;
+}
+#buttondiv{
+    position: fixed;
+    bottom: 100px;
+    line-height: 50px;
+    text-align: center;
+    width: 100%;
+}
+.button{
+  background-color: #7AA8DD;
+}
+.button:hover{
+  background-color: #488DDE;
+}
+.plates{
+  width: 400px;
+  height: 400px;
+  background: url(plate.png);
+  background-size: 100%;
+  border-radius: 200px;
+  text-align: center;
+}
+.plategroup{
+  margin-left: 5px;
+}
+
+.rating {
+  unicode-bidi: bidi-override;
+  direction: rtl;
+  color: black;
+  font-size: 96px;
+}
+.rating > span {
+  display: inline-block;
+  position: relative;
+  width: 1.1em;
+}
+.rating > span:hover:before,
+.rating > span:hover ~ span:before {
+   content: "\2605";
+   position: absolute;
+}
+.stars{
+  color:gold;
+}
+.name{
+  color: black;
+  font-size: 50px;
+  margin-top: 30px;
+}

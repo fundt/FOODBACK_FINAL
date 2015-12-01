@@ -1,0 +1,107 @@
+// Place all the styles related to the feedback controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+.happy, .sad{
+	width: 450px;
+	height: 450px;
+	border-radius: 225px;
+	-webkit-filter: invert(100%); filter: invert(100%);
+	text-align: center;
+	display:block;
+	margin-left:auto;
+	margin-right:auto;
+}
+
+.faces{
+	margin-left:40px;
+}
+
+
+html {
+  overflow: hidden;
+}
+
+body.wood{
+  font-family: 'Droid Serif', Verdana, Geneva, serif;
+  background-image: url(../img/wood.jpg);
+  color:snow;
+  .happy{
+    background-image: url(../img/smile.png);
+    background-repeat: no-repeat;
+  }
+  .sad{
+    background-image: url(../img/frown.png);
+    background-repeat: no-repeat;
+  }
+}
+
+h1,h3{
+  color:snow;
+  font-family: 'Droid Serif', Verdana, Geneva, serif;
+  text-align: center;
+}
+
+.leftpb{
+  height: 45px;
+  background-size: 225px 75px;
+  background-repeat: no-repeat;
+  background-position: right top;
+  border-right-style: solid;
+  border-color: dimgray;
+}
+.centerpb{
+  height: 45px;
+  background-size: 225px 75px;
+  background-repeat: no-repeat;
+  border-right-style: solid;
+  border-left-style: solid;
+  border-color: dimgray;
+}
+
+.rightpb{
+  height: 45px;
+  background-size: 225px 75px;
+  background-repeat: no-repeat;
+  border-left-style: solid;
+  border-color: dimgray;
+}
+
+.rus{
+  background-image: url(../img/RIGHT.png);
+}
+.rs{
+  background-image: url(../img/RIGHTselected.png);
+}
+.rg{
+  background-image: url(../img/vRIGHTgray.png)
+}
+.lus{
+  background-image: url(../img/LEFT.png);
+}
+.ls{
+  background-image: url(../img/LEFTselected.png);
+}
+.mus{
+  background-image: url(../img/MIDDLE.png);
+}
+.ms{
+  background-image: url(../img/MIDDLEselected.png);
+}
+.mg{
+  background-image: url(../img/MIDDLEgray.png)
+}
+#footer{
+    position: fixed;
+    bottom: 25px;
+    line-height: 50px;
+    text-align: center;
+    width: 100%;
+}
+#buttondiv{
+    position: fixed;
+    bottom: 100px;
+    line-height: 50px;
+    text-align: center;
+    width: 100%;
+}

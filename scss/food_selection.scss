@@ -1,0 +1,106 @@
+// Place all the styles related to the feedback controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+.plate {
+   position: absolute;
+   top: 50%;
+   left: 50%;
+   width: 400px;
+   height: 400px;
+   margin-top: -275px; /* Half the height */
+   margin-left: -195px; /* Half the width */
+}
+
+.round-icon {
+  display: table;
+  height: 80px;
+  margin: 15px auto 1rem;
+  width: 160px;
+  font-size: 35px;
+  color: #F5A623;
+  font-weight: bold;
+  text-shadow: 1px 1px #AAAAAA;
+  .food-item{
+    display: table-cell;
+    text-align: center;
+    vertical-align: left;
+  }
+}
+
+html {
+        overflow: hidden;
+}
+
+body{
+  font-family: 'Droid Serif', Verdana, Geneva, serif;
+  background-image: url(../img/wood.jpg);
+  color:snow;
+}
+
+h1,h3{
+  color:snow;
+  font-family: 'Droid Serif', Verdana, Geneva, serif;
+  text-align: center;
+}
+.centerpb{
+  height: 45px;
+  background-size: 225px 75px;
+  background-repeat: no-repeat;
+  border-right-style: solid;
+  border-left-style: solid;
+  border-color: dimgray;
+}
+
+.rightpb{
+  height: 45px;
+  background-size: 225px 75px;
+  background-repeat: no-repeat;
+  border-left-style: solid;
+  border-color: dimgray;
+}
+
+.rus{
+  background-image: url(../img/RIGHT.png);
+}
+.rs{
+  background-image: url(../img/RIGHTselected.png);
+}
+.rg{
+  background-image: url(../img/RIGHTgray.png)
+}
+.lus{
+  background-image: url(../img/LEFT.png);
+}
+.ls{
+  background-image: url(../img/LEFTselected.png);
+}
+.mus{
+  background-image: url(../img/MIDDLE.png);
+}
+.ms{
+  background-image: url(../img/MIDDLEselected.png);
+}
+.mg{
+  background-image: url(../img/MIDDLEgray.png)
+}
+#footer{
+    position: fixed;
+    bottom: 25px;
+    line-height: 50px;
+    text-align: center;
+    width: 100%;
+}
+#buttondiv{
+    position: fixed;
+    bottom: 100px;
+    line-height: 50px;
+    text-align: center;
+    width: 100%;
+}
+.button{
+  background-color: #7AA8DD;
+}
+.button:hover{
+  background-color: #488DDE;
+}

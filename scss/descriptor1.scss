@@ -1,0 +1,93 @@
+// Place all the styles related to the feedback controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+html {
+        overflow: hidden;
+}
+
+body{
+  background: -webkit-linear-gradient(red, blue); /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(red, blue); /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(turquoise, midnightblue); /* For Firefox 3.6 to 15 */
+  background: linear-gradient(turquoise, fuchsia); /* Standard syntax */
+  font-family: 'Droid Serif', Verdana, Geneva, serif;
+  background-image: url(wood.jpg);
+  color:snow;
+}
+
+h1,h3{
+  color:snow;
+  font-family: 'Droid Serif', Verdana, Geneva, serif;
+  text-align: center;
+}
+
+.leftpb{
+  height: 45px;
+  background-size: 225px 75px;
+  background-repeat: no-repeat;
+  background-position: right top;
+  border-right-style: solid;
+  border-color: dimgray;
+}
+.centerpb{
+  height: 45px;
+  background-size: 225px 75px;
+  background-repeat: no-repeat;
+  border-right-style: solid;
+  border-left-style: solid;
+  border-color: dimgray;
+}
+
+.rightpb{
+  height: 45px;
+  background-size: 225px 75px;
+  background-repeat: no-repeat;
+  border-left-style: solid;
+  border-color: dimgray;
+}
+
+.rus{
+  background-image: url(RIGHT.png);
+}
+.rs{
+  background-image: url(RIGHTselected.png);
+}
+.rg{
+  background-image: url(RIGHTgray.png)
+}
+.lus{
+  background-image: url(LEFT.png);
+}
+.ls{
+  background-image: url(LEFTselected.png);
+}
+.mus{
+  background-image: url(MIDDLE.png);
+}
+.ms{
+  background-image: url(MIDDLEselected.png);
+}
+.mg{
+  background-image: url(MIDDLEgray.png)
+}
+#footer{
+    position: fixed;
+    bottom: 25px;
+    line-height: 50px;
+    text-align: center;
+    width: 100%;
+}
+#buttondiv{
+    position: fixed;
+    bottom: 100px;
+    line-height: 50px;
+    text-align: center;
+    width: 100%;
+}
+.button{
+  background-color: #7AA8DD;
+}
+.button:hover{
+  background-color: #488DDE;
+}

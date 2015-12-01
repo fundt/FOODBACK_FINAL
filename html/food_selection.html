@@ -1,0 +1,128 @@
+<html>
+<head>
+  <title>CS 142 Project 1, Problem 1</title>
+   <link rel="stylesheet" type="text/css" href="../scss/food_selection.css.scss"/>
+ </head>
+<body>
+<h1>Drag the food you ate onto the plate!</h1>
+
+
+
+<img class = "plate" src="../../assets/plate.png" alt="" />
+
+<div class="row">
+  <div class="medium-2 columns">
+  	<div class="round-icon" draggable="true">
+          <div class = "food-item">Chicken</div>
+    </div>
+  </div>
+  <div class="medium-8 columns"></div>
+  <div class="medium-2 columns">
+  	  	<div class="round-icon" draggable="true">
+          <div class = "food-item">Broccoli</div>
+    </div>
+  </div>
+</div>
+
+<div class="row">
+  <div class="medium-2 columns">
+  	<div class="round-icon" draggable="true">
+        <div class = "food-item">Cake</div>
+    </div>
+  </div>
+  <div class="medium-8 columns"></div>
+  <div class="medium-2 columns">
+  	<div class="round-icon" draggable="true">
+          <div class = "food-item">Potatoes</div>
+    </div>
+  </div>
+</div>
+
+<div class="row">
+  <div class="medium-2 columns">
+  	<div class="round-icon" draggable="true">
+          <div class = "food-item">Asparagus</div>
+    </div>  	
+  </div>
+  <div class="medium-8 columns"></div>
+  <div class="medium-2 columns">
+  	<div class="round-icon" draggable="true">
+          <div class = "food-item">Pasta</div>
+    </div>
+  </div>
+</div>
+
+<div class="row">
+  <div class="medium-2 columns">
+  	<div class="round-icon" draggable="true">
+          <div class = "food-item">Beef</div>
+    </div>
+  </div>
+  <div class="medium-8 columns"></div>
+  <div class="medium-2 columns">
+  	<div class="round-icon" draggable="true">
+          <div class = "food-item">Pork</div>
+    </div>
+  </div>
+</div>
+
+<div class="row">
+  <div class="medium-2 columns">
+  	<div class="round-icon" draggable="true">
+          <div class = "food-item">Hot Dog</div>
+    </div>
+  </div>
+  <div class="medium-8 columns"></div>
+  <div class="medium-2 columns">
+  	<div class="round-icon" draggable="true">
+          <div class = "food-item">Eggs</div>
+    </div>
+  </div>
+</div>
+
+<div id="buttondiv">
+	<div class = "row">
+		<div class="medium-4 columns">&nbsp;</div>
+		<div class="medium-2 columns">
+			<a href="home" class="button large">Previous</a>
+		</div>
+		<div class="medium-2 columns">
+			<a href="quantity" class="button large">Continue</a>
+		</div>
+		<div class="medium-4 columns">&nbsp;</div>
+	</div>
+</div>
+
+<div id="footer">
+  <div class="row">
+      <a href = "home">
+        <div class="medium-3 columns leftpb ls"></div>
+      </a>
+      <a href = "food_selection">
+        <div class="medium-2 columns centerpb ms"></div>
+      </a>
+    <%if session[:quantity] == 1%>
+        <a href = "quantity">
+        <div class="medium-2 columns centerpb mus"></div>
+        </a>
+    <%else%>
+        <div class="medium-2 columns centerpb mg"></div>
+    <%end%>
+    <%if session[:descriptor1] == 1%>
+        <a href = "descriptor1">
+        <div class="medium-2 columns centerpb mus"></div>
+        </a>
+    <%else%>
+        <div class="medium-2 columns centerpb mg"></div>
+    <%end%>
+    <%if session[:descriptor2] == 1%>
+        <a href = "descriptor2">
+        <div class="medium-3 columns rightpb rus"></div>
+        </a>
+    <%else%>
+        <div class="medium-3 columns rightpb rg"></div>
+    <%end%>
+  </div>
+</div>
+</body>
+</html>

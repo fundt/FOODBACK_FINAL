@@ -1,0 +1,97 @@
+<html>
+  <title>CS 142 Project 1, Problem 1</title>
+   <link rel="stylesheet" type="text/css" href="../stylesheets/quantity.css"/>
+ </head>
+<body>
+<h1>
+	Rate the food you ate!
+</h1> 	
+<div class = "plategroup">
+	<ul class="small-block-grid-3 plategroup">
+	  <li>
+	  	<div class = "plates">
+	  		<div class = "platetext">
+	  			<br>
+	  			<br>
+	  			<div class = "name">
+	  				Chicken
+	  			</div>
+	  			<div class="rating stars">
+					<span>☆</span><span>☆</span><span>☆</span>
+				</div>
+			</div>
+	  	</div>
+	  </li>
+	  <li>
+	  	<div class = "plates">
+	  		<div class = "platetext">
+	  			<br>
+	  			<br>
+	  			<div class = "name">
+	  				Cake
+	  			</div>
+	  			<div class="rating stars">
+					<span>☆</span><span>☆</span><span>☆</span>
+				</div>
+			</div>
+	  	</div>
+	  </li>
+	  <li>
+	  	<div class = "plates">
+	  		<div class = "platetext">
+	  			<br>
+	  			<br>
+	  			<div class = "name">
+	  				Pasta
+	  			</div>
+	  			<div class="rating stars">
+					<span>☆</span><span>☆</span><span>☆</span>
+				</div>
+			</div>
+	  	</div>
+	  </li>
+	</ul>
+</div>
+
+<div id="buttondiv">
+	<div class = "row">
+		<div class="medium-4 columns">&nbsp;</div>
+		<div class="medium-2 columns">
+			<a href="food_selection" class="button large">Previous</a>
+		</div>
+		<div class="medium-2 columns">
+			<a href="descriptor1" class="button large">Continue</a>
+		</div>
+		<div class="medium-4 columns">&nbsp;</div>
+	</div>
+</div>
+
+<div id="footer">
+	<div class="row">
+      <a href = "home">
+	  	  <div class="medium-3 columns leftpb ls"></div>
+      </a>
+      <a href = "food_selection">
+	  	  <div class="medium-2 columns centerpb ms"></div>
+      </a>
+      <a href = "quantity">
+	  	  <div class="medium-2 columns centerpb ms"></div>
+      </a>
+    <%if session[:descriptor1] == 1%>
+        <a href = "descriptor1">
+        <div class="medium-2 columns centerpb mus"></div>
+        </a>
+    <%else%>
+        <div class="medium-2 columns centerpb mg"></div>
+    <%end%>
+    <%if session[:descriptor2] == 1%>
+        <a href = "descriptor2">
+        <div class="medium-3 columns rightpb rus"></div>
+        </a>
+    <%else%>
+        <div class="medium-3 columns rightpb rg"></div>
+    <%end%>
+	</div>
+</div>
+</body>
+</html>
